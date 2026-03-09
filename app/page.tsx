@@ -234,7 +234,7 @@ export default function HomePage() {
               onClick={() => setIsSubmissionOpen(true)}
               className="rounded-xl bg-blue-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-800"
             >
-              REPORTLAH
+              REPORT NOW
             </button>
           </div>
         </div>
