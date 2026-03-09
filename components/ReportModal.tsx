@@ -73,11 +73,14 @@ export default function ReportModal({ details, onClose }: ReportModalProps) {
                 Price Reports ({details.reports.length})
               </h3>
               <div className="space-y-3">
-                {details.reports.map((report) => (
-                  <div
-                    key={report.id}
-                    className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-blue-200"
-                  >
+                {details.reports.map((report) => {
+                  const rating = report.rating ?? 0;
+
+                  return (
+                    <div
+                      key={report.id}
+                      className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-blue-200"
+                    >
                     <div className="mb-1 flex items-center justify-between gap-2">
                       <p className="text-sm font-semibold text-slate-900">{report.serviceType}</p>
                       <p className="rounded-full bg-blue-50 px-2.5 py-1 text-sm font-semibold text-blue-700">
@@ -114,7 +117,7 @@ export default function ReportModal({ details, onClose }: ReportModalProps) {
                               <span
                                 key={star}
                                 className={`text-sm ${
-                                  star <= report.rating
+                                  star <= rating
                                     ? "text-amber-500"
                                     : "text-slate-300"
                                 }`}
@@ -161,8 +164,9 @@ export default function ReportModal({ details, onClose }: ReportModalProps) {
                         </a>
                       )
                     ) : null}
-                  </div>
-                ))}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
