@@ -1,0 +1,13 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#E2E8F0"/>
+  <rect x="80" y="80" width="1040" height="515" rx="28" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="8"/>
+  <rect x="130" y="130" width="940" height="70" rx="14" fill="#1D4ED8"/>
+  <text x="160" y="176" fill="white" font-size="36" font-family="Arial, sans-serif" font-weight="700">REPORTLAH • Business Location (Sample)</text>
+  <rect x="160" y="250" width="400" height="250" rx="20" fill="#DBEAFE"/>
+  <rect x="610" y="250" width="430" height="40" rx="10" fill="#94A3B8"/>
+  <rect x="610" y="315" width="360" height="30" rx="10" fill="#CBD5E1"/>
+  <rect x="610" y="370" width="300" height="30" rx="10" fill="#CBD5E1"/>
+  <rect x="610" y="425" width="380" height="30" rx="10" fill="#CBD5E1"/>
+  <circle cx="360" cy="375" r="56" fill="#1D4ED8"/>
+  <path d="M360 340C370.493 340 379 348.507 379 359C379 364.928 376.292 370.222 372.053 373.706L360 390L347.947 373.706C343.708 370.222 341 364.928 341 359C341 348.507 349.507 340 360 340Z" fill="white"/>
+</svg>

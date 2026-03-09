@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --reportlah-navy: #0f172a;
+  --reportlah-blue: #1d4ed8;
+  --reportlah-gray: #64748b;
+  --reportlah-bg: #f1f5f9;
+  --reportlah-red: #dc2626;
+  --reportlah-amber: #f59e0b;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--reportlah-bg);
+  color: var(--reportlah-navy);
+}
+
+* {
+  box-sizing: border-box;
+}
